@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
 <body>
 	<!-- Header starts -->
@@ -16,30 +17,73 @@
 		<nav id="header-nav" class="navbar navbar-default">
 			<div class="container">
 				<div class="navbar-header">
-					<a href="index.html" class="pull-left visible-md visible-lg visible-sm">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+						<span class="sr-only">toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+
+					</button>
+					<a href="index.html" class="pull-left hidden-xs">
 						<div id="logo-img" alt="Logo image"></div>
 					</a>
+					
 					<div class="navbar-brand">
 						<a href="index.html">
 							<h1>Food LLC.</h1>
 						</a>
-						<p><span>We Bake. We serve. We deliver.</span></p>
+						<p><span class="glyphicon glyphicon-cutlery"></span><span>&nbsp;We Bake. We serve. We deliver.&nbsp;</span><span class="glyphicon glyphicon-cutlery"></span></p>
 					</div>
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-						<span class="sr-only">toggle navigation</span>
-						<span class="icon-bar">Beef</span>
-						<span class="icon-bar">Chicken</span>
-						<span class="icon-bar">Sushi</span>
-
-					</button>
+					
 				</div>
+				<div id="collapsable-nav" class="collapse navbar-collapse">
+		           <ul id="nav-list" class="nav navbar-nav navbar-right">
+			            <li class="">
+			              <a href="#pizza">
+			                <span class="fas fa-pizza-slice"></span><br class="hidden-xs">Pizza</a>
+			            </li>
+			            <li class="">
+			              <a href="#chicken">
+			                <span class="fas fa-drumstick-bite"></span><br class="hidden-xs">Chicken</a>
+			            </li>
+			            <li class="">
+			              <a href="#burger">
+			                <span class="fas fa-hamburger"></span><br class="hidden-xs">Burger</a>
+			            </li>
+			            
+		          </ul><!-- #nav-list -->
+        		</div><!-- .collapse .navbar-collapse -->
 			</div>
 		</nav>
 	</header>
+<!-- Header ends here -->
+<!-- main content starts here -->
+<div class="container">
+	<div class="row">
+		<a name="pizza"></a>
+		
+		<h2 class="col-md-5 col-sm-5 col-xs-12 col-xxs-12" id="pimg"><span>Pizza</span></h2>
+		<p class="content col-md-7 col-sm-7 col-xs-12"> " My favorite shape of food – a circle made of triangles served in a square box.My favorite shape of food – a circle made of triangles served in a square box.My favorite shape of food – a circle made of triangles served in a square box.My favorite shape of food – a circle made of triangles served in a square box.My favorite shape of food – a circle made of triangles served in a square box.My favorite shape of food – a circle made of triangles served in a square box.My favorite shape of food – a circle made of triangles served in a square box.My favorite shape of food – a circle made of triangles served in a square box.My favorite shape of food – a circle made of triangles served in a square box.My favorite shape of food – a circle made of triangles served in a square box. "</p>
+
+	</div>
+	<hr>
+	<div class="row">
+		<a name="chicken"></a>
+		<h2 class="col-md-5 col-sm-5 col-xs-12 col-xxs-12" id="cimg"><span>Chicken</span></h2>
+		<p class="content col-md-7 col-sm-7 col-xs-12"> " I like chicken a lot because chicken is generous - that is to say, it's obedient. It will do whatever you tell it to do.I like chicken a lot because chicken is generous - that is to say, it's obedient. It will do whatever you tell it to do.I like chicken a lot because chicken is generous - that is to say, it's obedient. It will do whatever you tell it to do.I like chicken a lot because chicken is generous - that is to say, it's obedient. It will do whatever you tell it to do.I like chicken a lot because chicken is generous - that is to say, it's obedient. It will do whatever you tell it to do.I like chicken a lot because chicken is generous - that is to say, it's obedient. It will do whatever you tell it to do.I like chicken a lot because chicken is generous - that is to say, it's obedient. It will do whatever you tell it to do. "</p>
+	</div>
+	<hr>
+	<div class="row">
+		<a name="burger"></a>
+		<h2 class="col-md-5 col-sm-5 col-xs-12 col-xxs-12" id="bimg"><span>Burger</span></h2> "
+		<p class="content col-md-7 col-sm-7 col-xs-12">" The best stories are like the best burgers: big, juicy, and messy.The best stories are like the best burgers: big, juicy, and messy.The best stories are like the best burgers: big, juicy, and messy.The best stories are like the best burgers: big, juicy, and messy.The best stories are like the best burgers: big, juicy, and messy.The best stories are like the best burgers: big, juicy, and messy.The best stories are like the best burgers: big, juicy, and messy.The best stories are like the best burgers: big, juicy, and messy.The best stories are like the best burgers: big, juicy, and messy.The best stories are like the best burgers: big, juicy, and messy.The best stories are like the best burgers: big, juicy, and messy.The best stories are like the best burgers: big, juicy, and messy.The best stories are like the best burgers: big, juicy, and messy."</p>
+	</div>
+	<hr>
+</div>
 
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/jquery-1.11.3.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
 </body>
