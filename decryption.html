@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Crypt-Decrypt</title>
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <link rel="stylesheet" type="text/css" href="css/styles.css">
+ 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ </head>
+ <body>
+ 
+ <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="#"><img src="css/Crypt-decrptlogo.png" class="logo-img"></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="loginpage.html">Encryption <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="decryption.html">Decryption</a>
+      </li>
+      
+        
+    </ul>
+    
+  </div>
+</nav>
+   <div class="col-md-6" style="margin:0 auto; float:none;">
+    <form method="post">
+     <h2 align="center">Decryption</h2>
+     <br />
+     <div class="form-group">
+      <label>Encrypted Text</label>
+      <input type="message" name="Encrypted text" placeholder="Enter cipher text" class="form-control" value="" />
+     </div>
+     <div class="form-group">
+      <label>Key</label>
+      <input type="text" name="key" class="form-control" placeholder="Enter Key" value="" />
+     </div>
+     
+     <div class="form-group" align="center">
+      <input type="submit" name="submit" class="btn btn-info" value="Submit" />
+     </div>
+     <div class="form-group">
+      <label>Plain Text</label>
+      <input type="message" name="Plain text" placeholder="Plain text is here" class="form-control" value="" />
+     </div>
+    </form>
+   </div>
+  </div>
+ </body>
+</html>
